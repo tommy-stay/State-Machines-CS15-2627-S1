@@ -5,7 +5,7 @@ while True:
 
     if state == "Locked":
         print("Your phone is locked.")
-        print("Options: 'password' (unlock), 'hack' (start the alarm)")
+        print("Options: 'password' (unlock), 'hack' (hack the phone)")
         action = input("Choose what you want to do: ").strip().lower()
 
         if action == "password":
@@ -17,7 +17,7 @@ while True:
 
     elif state == "Unlocked":
         print("Your phone is unlocked.")
-        print("Options: 'Off' (phone locked), 'steal' (open bank account)")
+        print("Options: 'Off' (phone lock), 'steal' (open bank account)")
         action = input("Choose what you want to do: ").strip().lower()
 
         if action == "off":
